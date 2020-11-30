@@ -79,6 +79,7 @@ def Detail():
 	count = 0
 	Naav = str(entry3.get())
 	print(Naav)
+	print("Aj")
 	root11.destroy()
 	label = Label(root12,text="Driver Details",pady=10,font=('Helvetica',15,'italic','underline','bold'))
 	label.grid(row=1,column=1,columnspan=2)
